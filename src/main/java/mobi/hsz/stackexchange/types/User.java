@@ -35,6 +35,8 @@ public class User extends ShallowUser {
     public List<Question> getVotedQuestions(voteType){}//voteType (PLUS,NEGATIVE,ALL)
     public List<Question> getStared(){}
     public int getScore(){}
+    public void deleteAccount(){}
+    public void setPassword(String newPassword){}
     
     
     
