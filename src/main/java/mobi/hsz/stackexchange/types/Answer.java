@@ -36,5 +36,14 @@ public class Answer {
     protected String title;
     protected int upVoteCount;
     protected boolean upvoted;
+    
+    public void addPlus(){}
+    public void removePlus(){}
+    public boolean isPlussed(User){}
+    public void addNegitive(){}
+    public void removeNegitive(){}
+    public boolean isNegitive(User){}
+    public void setAccepted(){}
+    public void unsetAccepted(){}
 
 }
