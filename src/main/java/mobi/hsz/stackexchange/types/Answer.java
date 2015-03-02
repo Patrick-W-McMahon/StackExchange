@@ -39,10 +39,10 @@ public class Answer {
     
     public void addPlus(){}
     public void removePlus(){}
-    public boolean isPlussed(User){}
+    public boolean isPlussed(User){}//has user +1 this Answer
     public void addNegitive(){}
     public void removeNegitive(){}
-    public boolean isNegitive(User){}
+    public boolean isNegitive(User){}//has user -1 this Answer
     public void setAccepted(){}
     public void unsetAccepted(){}
 
