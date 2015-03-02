@@ -1,0 +1,19 @@
+package mobi.hsz.stackexchange.types;
+
+import com.google.gson.annotations.SerializedName;
+
+import java.util.Date;
+import java.util.List;
+
+public class Badge {
+  private String label;
+  
+  public void setLabel(String l){
+    label = l;
+  }
+  
+  public String getLabel(){
+    return label;
+  }
+
+}
