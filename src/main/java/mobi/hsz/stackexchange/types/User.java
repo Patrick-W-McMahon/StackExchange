@@ -28,5 +28,15 @@ public class User extends ShallowUser {
     protected int upVoteCount;
     protected int viewCount;
     protected String websiteUrl;
+    
+    public List<Answer> getAnswers(){}
+    public List<Question> getQuestions(){}
+    public List<Answer> getVotedAnswers(voteType){}//voteType (PLUS,NEGATIVE,ALL)
+    public List<Question> getVotedQuestions(voteType){}//voteType (PLUS,NEGATIVE,ALL)
+    public List<Question> getStared(){}
+    public int getScore(){}
+    
+    
+    
 
 }
